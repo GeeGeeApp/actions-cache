@@ -20,7 +20,7 @@ outputs:
   primary-key:
     description: 'The primary key that should be used when saving the cache.'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: '../dist/restore/index.js'
 branding:
   icon: 'archive'
